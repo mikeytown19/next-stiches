@@ -1,12 +1,11 @@
-import React from 'react'
-import * as Styled from './Header.styles'
-import { StitchesLogoIcon ,SunIcon } from '@radix-ui/react-icons';
-import Box from '../Box'
+import { StitchesLogoIcon, SunIcon } from '@radix-ui/react-icons';
 import { useTheme } from 'next-themes';
+import * as Styled from './Header.styles';
+import Box from '../Box';
 
-const Header = ({children}) => {
+const Header = ({ }) => {
   const { theme, setTheme } = useTheme();
-  console.log("🚀 ~ file: index.js ~ line 9 ~ Header ~ theme", theme)
+
   return (
     <Styled.Header>
 
@@ -23,9 +22,9 @@ const Header = ({children}) => {
           svg: {
             size: '$4',
             '&:hover': {
-              'cursor': 'pointer'
-            }
-          }
+              cursor: 'pointer',
+            },
+          },
         }}
       >
         <span>Docs</span>
@@ -36,7 +35,7 @@ const Header = ({children}) => {
       </Box>
 
     </Styled.Header>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;

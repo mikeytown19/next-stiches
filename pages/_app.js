@@ -1,21 +1,28 @@
-import { global } from '../stiches.config';
-import { ThemeProvider } from 'next-themes'
-import { darkTheme } from '../stiches.config';
+import { ThemeProvider } from 'next-themes';
+import { globalCss, darkTheme } from '../stiches.config';
 
-const globalStyles = global({
-  html: {m: 0, p:0},
-  body: {m: 0, p:0, fontFamily: '$body'},
+const globalStyles = globalCss({
+  html: { m: 0, p: 0 },
+  body: { m: 0, p: 0, fontFamily: '$body' },
   '*': { margin: 0, padding: 0 },
+  h1: {
+    fontSize: '$9',
+  },
 
 });
 
-console.log(darkTheme)
-
+globalStyles();
 function MyApp({ Component, pageProps }) {
-  globalStyles()
-  return  (<ThemeProvider  value={{ light: 'light-theme', dark: darkTheme.className }}>
-        <Component {...pageProps} />;
-    </ThemeProvider>)
+  return (
+    <ThemeProvider
+      disableTransitionOnChange
+      attribute="class"
+      value={{ light: 'light-theme', dark: darkTheme.className }}
+      defaultTheme="system"
+    >
+      <Component {...pageProps} />
+    </ThemeProvider>
+  );
 }
 
 export default MyApp;

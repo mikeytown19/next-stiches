@@ -1,7 +1,7 @@
 import { styled } from '../../stiches.config';
 
 const Button = styled('button', {
-  bg: '$blue8',
+  bg: '$cyan5',
   border: 0,
   borderRadius: '$2',
   fontSize: '$3',
@@ -10,7 +10,7 @@ const Button = styled('button', {
   '&:hover': {
     backgroundColor: 'lightgray',
     cursor: 'pointer',
-  }
+  },
 });
 
 export default Button;

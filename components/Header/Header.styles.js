@@ -6,23 +6,20 @@ export const Header = styled('nav', {
   display: 'flex',
   jc: 'space-between',
   ai: 'center',
-  color: '$gray400',
+  color: '$slate11',
   '.logo': {
     svg: {
-      fill: '$gray400',
+      fill: 'inherit',
       size: '$6',
     },
   },
   span: {
-    px: '$3',
-    color: '$gray400'
+    px: '$2',
+    mx: '$2',
+    color: 'inherit',
   },
   svg: {
-    color: '$gray400'
-  }
-
-
+    color: 'inherit',
+  },
 
 });
-
-
