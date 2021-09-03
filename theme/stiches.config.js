@@ -227,7 +227,9 @@ const stitches = createStitches({
       6: '21px',
       7: '27px',
       8: '35px',
-      9: '59px',
+      9: '53x',
+      10: '6rem',
+      11: '8rem',
     },
 
     radii: {
@@ -374,7 +376,7 @@ const stitches = createStitches({
     backgroundClip: (value) => ({
       WebkitBackgroundClip: value,
       backgroundClip: value,
-    }),
+    })
   },
 });
 

@@ -1,4 +1,4 @@
-import { styled } from '../../stiches.config';
+import { styled } from '../../theme/stiches.config';
 
 const Section = styled('section', {
   boxSizing: 'border-box',

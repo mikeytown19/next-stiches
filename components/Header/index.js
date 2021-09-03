@@ -1,4 +1,4 @@
-import { StitchesLogoIcon, SunIcon } from '@radix-ui/react-icons';
+import { Component1Icon, SunIcon } from '@radix-ui/react-icons';
 import { useTheme } from 'next-themes';
 import * as Styled from './Header.styles';
 import Box from '../Box';
@@ -10,7 +10,7 @@ const Header = ({ }) => {
     <Styled.Header>
 
       <div className="logo">
-        <StitchesLogoIcon />
+        <Component1Icon />
       </div>
 
       <Box

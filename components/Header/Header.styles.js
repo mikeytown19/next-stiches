@@ -1,4 +1,4 @@
-import { styled } from '../../stiches.config';
+import { styled } from '../../theme/stiches.config';
 
 export const Header = styled('nav', {
   bg: 'inherit',
@@ -6,11 +6,12 @@ export const Header = styled('nav', {
   display: 'flex',
   jc: 'space-between',
   ai: 'center',
-  color: '$slate11',
+  color: '$slate12',
+
   '.logo': {
     svg: {
       fill: 'inherit',
-      size: '$6',
+      size: '$7',
     },
   },
   span: {

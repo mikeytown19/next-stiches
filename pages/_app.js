@@ -1,13 +1,10 @@
 import { ThemeProvider } from 'next-themes';
-import { globalCss, darkTheme } from '../stiches.config';
+import { globalCss, darkTheme } from '../theme/stiches.config';
 
 const globalStyles = globalCss({
   html: { m: 0, p: 0 },
   body: { m: 0, p: 0, fontFamily: '$body' },
   '*': { margin: 0, padding: 0 },
-  h1: {
-    fontSize: '$9',
-  },
 
 });
 

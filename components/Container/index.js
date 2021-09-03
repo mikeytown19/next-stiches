@@ -1,4 +1,4 @@
-import { styled } from '../../stiches.config';
+import { styled } from '../../theme/stiches.config';
 
 const Container = styled('div', {
   // Reset
