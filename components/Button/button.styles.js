@@ -20,19 +20,25 @@ export const Button = styled('button', {
   p: '$3',
   transition: 'background-color .2s',
   mx: '$3',
-
   '&:hover': {
     cursor: 'pointer',
+
   },
   variants: {
     primary: {
       true: {
         bg: '$primary',
+        '&:hover': {
+          bg: '$primaryHover',
+        },
       },
     },
     secondary: {
       true: {
         bg: '$secondary',
+        '&:hover': {
+          bg: '$secondaryHover',
+        },
       },
     },
     size: {
@@ -42,11 +48,30 @@ export const Button = styled('button', {
       large: {
         py: '$4',
         px: '$6',
+        my: '$2',
       },
     },
     icon: {
       true: {
-        bg: '$primary',
+        pr: '$4',
+
+        display: 'inline-flex',
+        jc: 'center',
+        ai: 'center',
+        '.iconContainer': {
+          pr: '$1',
+          display: 'inline-flex',
+        },
+
+      },
+    },
+    iconRight: {
+      true: {
+        pl: '$4',
+        fd: 'row-reverse',
+        '.iconContainer': {
+          pl: '$1',
+        },
       },
     },
     border: {

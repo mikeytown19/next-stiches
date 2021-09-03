@@ -18,7 +18,7 @@ export default function Home() {
             <Text>Component Library built off of <Text as="span" color="violet">@stiches</Text>
             </Text>
 
-            <Button> Documentation</Button>
+            <Button primary> Documentation</Button>
           </Box>
         </Container>
       </Section>

@@ -1,4 +1,4 @@
-import { Component1Icon, SunIcon } from '@radix-ui/react-icons';
+import { Component1Icon } from '@radix-ui/react-icons';
 import Section from '../components/Section';
 import Header from '../components/Header';
 import Container from '../components/Container';
@@ -23,12 +23,14 @@ export default function Buttons() {
 
               <Button border="none">No Border Button</Button>
               <Button size="small">Small Button</Button>
-              <Button size="large">Small Button</Button>
+              <Button size="large">Large Button</Button>
             </Box>
             <Box>
               <Button primary> primary button</Button>
               <Button secondary> secondary button</Button>
-              <Button icon={<Component1Icon />}>button with icon</Button>
+              <Button primary icon={<Component1Icon />}>button with icon left</Button>
+              <Button secondary iconRight icon={<Component1Icon />}>button with icon right</Button>
+              <Button css={{ p: '$2' }} secondary icon={<Component1Icon />} />
             </Box>
           </Box>
         </Container>

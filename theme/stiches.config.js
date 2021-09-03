@@ -185,7 +185,9 @@ const stitches = createStitches({
       text: '$dark7',
 
       primary: '$yellow8',
+      primaryHover: '$yellow7',
       secondary: '$violet7',
+      secondaryHover: '$violet6',
       muted: '#f6f6f6',
 
       // Semantic colors
