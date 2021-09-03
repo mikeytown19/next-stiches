@@ -1,5 +1,6 @@
 import { Component1Icon, SunIcon } from '@radix-ui/react-icons';
 import { useTheme } from 'next-themes';
+import Link from 'next/link';
 import * as Styled from './Header.styles';
 import Box from '../Box';
 
@@ -8,10 +9,12 @@ const Header = ({ }) => {
 
   return (
     <Styled.Header>
+      <Link href="/">
+        <a className="logo">
+          <Component1Icon />
 
-      <div className="logo">
-        <Component1Icon />
-      </div>
+        </a>
+      </Link>
 
       <Box
         css={{
@@ -27,7 +30,9 @@ const Header = ({ }) => {
           },
         }}
       >
-        <span>Docs</span>
+        <Link href="/buttons">
+          <a>Buttons</a>
+        </Link>
         <span>Blog</span>
         <span>Github</span>
         <span>Discord</span>

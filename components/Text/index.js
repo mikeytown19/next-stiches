@@ -11,16 +11,16 @@ export const Text = styled('p', {
     heading: {
       true: {
         fontWeight: 800,
-        fontSize: '$11',
+        fontSize: '$12',
         letterSpacing: '-.055em',
         textIndent: '-.025em',
-        mb: '$8',
+        mb: '$9',
         fontVariantNumeric: 'proportional-nums',
-        lineHeight: '25px',
+        lineHeight: '3rem',
         bp2: {
           lineHeight: '30px',
         },
-      }
+      },
     },
     size: {
       1: {
@@ -52,7 +52,7 @@ export const Text = styled('p', {
         fontSize: '$8',
         letterSpacing: '-.034em',
         textIndent: '-.018em',
-        pb: '$6'
+        pb: '$6',
       },
       9: {
         fontSize: '$9',

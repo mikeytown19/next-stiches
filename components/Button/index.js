@@ -1,17 +1,10 @@
-import { styled } from '../../theme/stiches.config';
-import { focusableVariants } from '../../theme/variants';
+import * as Styled from './button.styles';
 
-const Button = styled('button', {
-  border: 0,
-  borderRadius: '$2',
-  fontSize: '$3',
-  transition: 'background-color .2s',
-  '&:hover': {
-    cursor: 'pointer',
-  },
-
-},
-focusableVariants
+const Button = ({ children, icon, ...props }) => (
+  <Styled.Button {...props}>
+    {icon && icon}
+    {children}
+  </Styled.Button>
 );
 
 export default Button;
