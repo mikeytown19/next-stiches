@@ -1,4 +1,5 @@
 import { styled, css } from '../../theme/stiches.config';
+import { backgroundColorVariants, marginVariants, colorVariants } from '../../theme/variants';
 
 export const focusableVariants = css({
   variants: {
@@ -7,7 +8,6 @@ export const focusableVariants = css({
         bg: 'background',
         px: '$3',
         py: '$3',
-
       },
     },
   },
@@ -18,27 +18,17 @@ export const Button = styled('button', {
   borderRadius: '$2',
   fontSize: '$3',
   p: '$3',
-  transition: 'background-color .2s',
+  transition: 'background-color .2s, box-shadow .2s',
   mx: '$3',
   '&:hover': {
     cursor: 'pointer',
+    boxShadow: '$1',
 
   },
   variants: {
-    primary: {
+    wide: {
       true: {
-        bg: '$primary',
-        '&:hover': {
-          bg: '$primaryHover',
-        },
-      },
-    },
-    secondary: {
-      true: {
-        bg: '$secondary',
-        '&:hover': {
-          bg: '$secondaryHover',
-        },
+        px: '$9',
       },
     },
     size: {
@@ -51,10 +41,14 @@ export const Button = styled('button', {
         my: '$2',
       },
     },
+    outline: {
+      true: {
+        bg: 'blak2',
+      },
+    },
     icon: {
       true: {
-        pr: '$4',
-
+        pr: '$3',
         display: 'inline-flex',
         jc: 'center',
         ai: 'center',
@@ -62,7 +56,6 @@ export const Button = styled('button', {
           pr: '$1',
           display: 'inline-flex',
         },
-
       },
     },
     iconRight: {
@@ -81,6 +74,6 @@ export const Button = styled('button', {
     },
   },
 
-});
+}, backgroundColorVariants, marginVariants, colorVariants);
 
 export default Button;

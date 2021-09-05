@@ -1,13 +1,31 @@
 import { css } from './stiches.config';
 
-export const flexVariants = css({
+export { marginVariants } from './variants/margin';
+export { flexVariants } from './variants/flex';
+export { fontVariants } from './variants/font';
+export { colorVariants, backgroundColorVariants } from './variants/colors';
+export { widthVariants } from './variants/widths';
+
+export const containerVariants = css({
   variants: {
-    flex: {
-      true: {
-        display: 'flex',
-        jc: 'center',
-        ai: 'center',
-        fd: 'column',
+    size: {
+      1: {
+        py: '$2',
+        '@bp1': {
+          py: '$3',
+        },
+      },
+      2: {
+        '@bp1': {
+          py: '$7',
+        },
+        py: '$5',
+      },
+      3: {
+        '@bp1': {
+          py: '$9',
+        },
+        py: '$7',
       },
     },
   },

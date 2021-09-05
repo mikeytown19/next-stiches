@@ -14,13 +14,12 @@ export const Header = styled('nav', {
       size: '$7',
     },
   },
-  span: {
-    px: '$2',
-    mx: '$2',
-    color: 'inherit',
+  'span, a': {
+    color: '$text',
+    textDecoration: 'none',
   },
   svg: {
-    color: 'inherit',
+    color: '$text',
   },
 
 });

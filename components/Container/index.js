@@ -1,17 +1,17 @@
 import { styled } from '../../theme/stiches.config';
 
 const Container = styled('div', {
-  // Reset
   boxSizing: 'border-box',
-  flexShrink: 0,
-
-  // Custom
   ml: 'auto',
   mr: 'auto',
   px: '$5',
+  maxWidth: '1450px',
 
   variants: {
     size: {
+      none: {
+        maxWidth: '0',
+      },
       1: {
         maxWidth: '430px',
       },
@@ -21,9 +21,7 @@ const Container = styled('div', {
       3: {
         maxWidth: '1145px',
       },
-      4: {
-        maxWidth: 'none',
-      },
+
     },
   },
 });
