@@ -9,12 +9,12 @@ export default function Heros() {
   return (
     <>
       <Header />
+      <Hero size="3">
+        <Text heading color="$blue10">Drillin is killin' Let's make it happen.
+        </Text>
+      </Hero>
       <Section textAlign="center">
-        <Hero size="3">
-          <Text color="blue" heading>Drillin is killin' Let's make it happen.
-          </Text>
-        </Hero>
-        <Text maxWidth="2" size="4" color="gray" m="auto">
+        <Text size="4" color="$blue9" m="auto">
           Tailwind CSS templates with a wicked design. Professionally designed and 100%
           responsive static templates for startups and personal use.
         </Text>
