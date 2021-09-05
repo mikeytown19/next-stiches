@@ -8,8 +8,8 @@ import Button from '../components/Button';
 export default function Home() {
   return (
     <>
-      <Header>hey</Header>
-      <Box
+      <Header />
+      {/* <Box
         css={{
           top: 0,
           right: 0,
@@ -24,15 +24,9 @@ export default function Home() {
               'radial-gradient(circle at 15% 50%, $violet3, rgba(255, 255, 255, 0) 25%), radial-gradient(circle at 85% 30%, $yellow4, rgba(255, 255, 255, 0) 15%)',
           },
         }}
-      />
+      /> */}
       <Section size={{ '@initial': '2', '@bp1': '3' }}>
-        <Box
-          css={{
-            size: '200px',
-            linearGradient: '19deg, #21D4FD 0%, #B721FF 100%',
-            br: '$round',
-          }}
-        />
+
         <Container>
           <Box flex js="center" ai="center" fd="column">
             <Text heading color="yellow">Kich</Text>
@@ -41,7 +35,7 @@ export default function Home() {
             <Text>Component Library built off of <Text as="span" color="violet">@stiches</Text>
             </Text>
 
-            <Button primary> Documentation</Button>
+            <Button bg="yellow"> Documentation</Button>
           </Box>
         </Container>
       </Section>

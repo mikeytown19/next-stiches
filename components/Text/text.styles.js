@@ -5,9 +5,8 @@ import {
 
 export const Text = styled('p', {
   lineHeight: '1',
-
-  fontWeight: 400,
   pb: '$5',
+  fontSize: '$4',
 
   variants: {
     heading: {

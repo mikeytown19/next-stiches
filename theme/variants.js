@@ -1,5 +1,7 @@
 import { css } from './stiches.config';
 
+export { paddingVariants } from './variants/padding';
+
 export { marginVariants } from './variants/margin';
 export { flexVariants } from './variants/flex';
 export { fontVariants } from './variants/font';

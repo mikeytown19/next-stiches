@@ -257,7 +257,7 @@ const stitches = createStitches({
     }),
 
     linearGradient: (value) => ({
-      backgroundImage: `linear-gradient(${value})`,
+      backgroundImage: `linear-gradient(to bottom right,${value}, rgba(37,99,235,0))`,
     }),
 
     appearance: (value) => ({
