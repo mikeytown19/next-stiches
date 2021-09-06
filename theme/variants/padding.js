@@ -6,6 +6,9 @@ export const paddingVariants = css({
       auto: {
         p: 'auto',
       },
+      0: {
+        p: '0',
+      },
       1: {
         p: '$2',
       },
@@ -23,6 +26,9 @@ export const paddingVariants = css({
       },
     },
     py: {
+      0: {
+        py: '0',
+      },
       1: {
         py: '$2',
       },
@@ -40,6 +46,9 @@ export const paddingVariants = css({
       },
     },
     px: {
+      0: {
+        px: '0',
+      },
       1: {
         px: '$2',
       },
@@ -57,6 +66,9 @@ export const paddingVariants = css({
       },
     },
     pt: {
+      0: {
+        pt: '0',
+      },
       1: {
         pt: '$2',
       },

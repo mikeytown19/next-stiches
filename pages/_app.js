@@ -1,15 +1,6 @@
 import { ThemeProvider } from 'next-themes';
-import { globalCss, darkTheme } from '../theme/stiches.config';
-
-const globalStyles = globalCss({
-  html: { m: 0, p: 0 },
-  body: { m: 0, p: 0, fontFamily: '$body' },
-  '*': { margin: 0, padding: 0 },
-  h4: {
-    fontWeight: '600',
-  },
-
-});
+import { darkTheme } from '../theme/stiches.config';
+import { globalStyles } from '../theme/globals';
 
 globalStyles();
 function MyApp({ Component, pageProps }) {

@@ -1,6 +1,6 @@
 import { styled } from '../../theme/stiches.config';
 
-const Container = styled('div', {
+export const Container = styled('div', {
   boxSizing: 'border-box',
   ml: 'auto',
   mr: 'auto',
@@ -10,20 +10,18 @@ const Container = styled('div', {
   variants: {
     size: {
       none: {
-        maxWidth: '0',
+        maxWidth: 'none',
       },
       1: {
-        maxWidth: '430px',
+        maxWidth: '520px',
       },
       2: {
-        maxWidth: '715px',
+        maxWidth: '800px',
       },
       3: {
-        maxWidth: '1145px',
+        maxWidth: '1200px',
       },
 
     },
   },
 });
-
-export default Container;

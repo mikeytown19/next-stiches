@@ -11,7 +11,7 @@ module.exports = {
     'plugin:testing-library/react',
     'plugin:jest-dom/recommended',
   ],
-  plugins: ['react-hooks'],
+  plugins: ['react-hooks', 'cypress'],
   rules: {
     'react/react-in-jsx-scope': 0,
     'react/jsx-uses-react': 0,

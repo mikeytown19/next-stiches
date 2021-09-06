@@ -9,14 +9,26 @@ export const Header = styled('nav', {
   color: '$slate12',
 
   '.logo': {
+    alignItems: 'center',
+    display: 'flex',
+    color: '$yellow9',
     svg: {
-      fill: 'inherit',
-      size: '$7',
+      color: '$yellow9',
+      size: '$6',
+    },
+    '&:hover': {
+      cursor: 'pointer',
     },
   },
   'span, a': {
-    color: '$text',
-    textDecoration: 'none',
+    display: 'none',
+    '@bp1': {
+      color: '$text',
+      textDecoration: 'none',
+      alignItems: 'center',
+      display: 'flex',
+    },
+
   },
   svg: {
     color: '$text',

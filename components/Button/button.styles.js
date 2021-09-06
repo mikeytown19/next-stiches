@@ -19,7 +19,7 @@ export const Button = styled('button', {
   fontSize: '$3',
   p: '$3',
   transition: 'background-color .2s, box-shadow .2s',
-  mx: '$3',
+
   '&:hover': {
     cursor: 'pointer',
     boxShadow: '$1',

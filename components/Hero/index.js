@@ -1,8 +1,10 @@
 import * as Styled from './hero.styles';
-import Container from '../Container';
-import Box from '../Box';
+import { Container } from '../Container';
+import { Box } from '../Box';
 
-const Hero = ({ children, gradient, ...props }) => (
+export const Hero = ({
+  children, size, gradient, ...props
+}) => (
   <Styled.Hero {...props}>
     {gradient && <Box
       css={{
@@ -20,10 +22,8 @@ const Hero = ({ children, gradient, ...props }) => (
         },
       }}
     />}
-    <Container>
+    <Container size={size}>
       {children}
     </Container>
   </Styled.Hero>
 );
-
-export default Hero;

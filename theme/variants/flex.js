@@ -21,6 +21,12 @@ export const flexVariants = css({
       center: {
         ai: 'center',
       },
+      start: {
+        ai: 'flex-start',
+      },
+      end: {
+        ai: 'flex-end',
+      },
     },
   },
 });

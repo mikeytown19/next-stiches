@@ -1,8 +1,11 @@
 import { styled } from '../../theme/stiches.config';
-import { flexVariants, paddingVariants, marginVariants } from '../../theme/variants';
+import {
+  flexVariants, paddingVariants, marginVariants, backgroundColorVariants,
+} from '../../theme/variants';
 
-const Box = styled('div', {
+export const Box = styled('div', {
 
-}, flexVariants, paddingVariants, marginVariants);
-
-export default Box;
+}, flexVariants,
+paddingVariants,
+marginVariants,
+backgroundColorVariants);

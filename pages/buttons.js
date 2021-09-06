@@ -1,17 +1,21 @@
 import { Component1Icon } from '@radix-ui/react-icons';
-import Section from '../components/Section';
-import Header from '../components/Header';
-import Container from '../components/Container';
-import Box from '../components/Box';
-import { Text } from '../components/Text';
-import Button from '../components/Button';
+import {
+  Section,
+  Header,
+  Button,
+  Text,
+  Box,
+  Container,
+  Heading,
+} from '../components';
 
 export default function Buttons() {
   return (
     <>
-      <Header>hey</Header>
-      <Section size={{ '@initial': '2', '@bp1': '3' }}>
+      <Header />
+      <Section>
         <Container>
+          <Heading ta="center" as="h1">Buttons</Heading>
           <Box flex jc="center" ai="center" fd="column">
             <Text heading color="yellow">Buttons</Text>
             <Text size="9" color="yellow">A list of buttons</Text>

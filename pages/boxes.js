@@ -1,22 +1,67 @@
-import Section from '../components/Section';
-import Header from '../components/Header';
-import Container from '../components/Container';
-import Box from '../components/Box';
-import { Text } from '../components/Text';
+import {
+  Section,
+  Header,
+  Text,
+  Box,
+  Container,
+  Grid,
+  Heading,
+} from '../components';
 
 export default function Boxes() {
   return (
     <>
-      <Header>hey</Header>
-      <Section size={{ '@initial': '1', '@bp1': '3' }}>
-        <Container size="4">
-          <Box flex>
-            <Text heading color="yellow">Kich</Text>
+      <Header />
+      <Section>
+        <Container>
+          <Heading ta="center" as="h1">
+            Boxes
+          </Heading>
+          <Grid gap="1">
+            <Box p="3">
+              <Text as="h5">Short length headline.</Text>
+              <Text>
+                Don't loose precious days designing, coding the landing page and testing .
+              </Text>
+            </Box>
+            <Box p="3">
+              <Text as="h5">Short length headline.</Text>
+              <Text>
+                You're about to launch soon and must be 100% focused on your product
+              </Text>
+            </Box>
+            <Box p="3">
+              <Text as="h5">Short length headline.</Text>
+              <Text>
+                You're about to launch soon and must be 100% focused on your product
+              </Text>
+            </Box>
+            <Box p="3">
+              <Text as="h5">Short length headline.</Text>
+              <Text>
+                You're about to launch soon and must be 100% focused on your product
+              </Text>
+            </Box>
+          </Grid>
+        </Container>
+      </Section>
+      <Section>
+        <Container>
+          <Grid gap="5">
+            <Box p="5">
+              <Text as="h5">Short length headline.</Text>
+              <Text>
+                Don't loose precious days designing, coding the landing page and testing .
+              </Text>
+            </Box>
+            <Box p="5">
+              <Text as="h5">Short length headline.</Text>
+              <Text>
+                You're about to launch soon and must be 100% focused on your product
+              </Text>
+            </Box>
 
-          </Box>
-          <Box css={{ bg: '$yellow8' }}>
-            Box
-          </Box>
+          </Grid>
         </Container>
       </Section>
     </>
