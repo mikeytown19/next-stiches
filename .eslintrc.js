@@ -23,6 +23,7 @@ module.exports = {
     'import/no-extraneous-dependencies': 0,
     'react/jsx-filename-extension': 0,
     'import/prefer-default-export': 0,
+    'max-len': 0,
     'import/no-unresolved': [
       2,
       {

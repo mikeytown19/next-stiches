@@ -15,18 +15,17 @@ export default function Heros() {
 
       <Hero css={{ p: '$11', linearGradient: '$blue3' }}>
         <Section textAlign="center">
-          <Text heading color="blue">Drilling is killing Les make it happen.
+          <Text heading color="blue">Lorem ipsum dolor sit amet consectetur.
           </Text>
-          <Text size="4" color="blue" m="auto">
-            Tailwind CSS templates with a wicked design. Professionally designed and 100%
-            responsive static templates for startups and personal use.
+          <Text size="4" m="auto">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos aspernatur fugiat perspiciatis eligendi in fugit obcaecati ullam odit maiores repellendus, dolorum sint, nam quod praesentium cum rerum error! Vitae, veniam?
           </Text>
           <Button mt="7" bg="blue" wide> Action</Button>
         </Section>
       </Hero>
       <Section>
         <Container>
-          <Grid>
+          <Grid gap="1">
             <Box p="3">
               <Text size="8" as="h4">Short length headline.</Text>
               <Text>
@@ -45,6 +44,33 @@ export default function Heros() {
                 You're about to launch soon and must be 100% focused on your product
               </Text>
             </Box>
+            <Box p="3">
+              <Text size="8" as="h4">Short length headline.</Text>
+              <Text>
+                You're about to launch soon and must be 100% focused on your product
+              </Text>
+            </Box>
+          </Grid>
+        </Container>
+      </Section>
+      <Section>
+        <Container>
+          <Text color="violet" size="9" as="h4">Short length headline to use as a title.
+          </Text>
+          <Grid gap="5">
+            <Box p="5">
+              <Text size="8" as="h4">Short length headline.</Text>
+              <Text>
+                Don't loose precious days designing, coding the landing page and testing .
+              </Text>
+            </Box>
+            <Box p="5">
+              <Text size="8" as="h4">Short length headline.</Text>
+              <Text>
+                You're about to launch soon and must be 100% focused on your product
+              </Text>
+            </Box>
+
           </Grid>
         </Container>
       </Section>

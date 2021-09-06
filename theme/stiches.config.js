@@ -33,6 +33,8 @@ import {
   purple,
   lime,
   limeDark,
+  green,
+  greenDark,
 
 } from '@radix-ui/colors';
 
@@ -58,6 +60,7 @@ const stitches = createStitches({
       ...pink,
       ...purple,
       ...lime,
+      ...green,
 
       primary: '$yellow8',
       primaryHover: '$yellow7',
@@ -317,6 +320,7 @@ export const darkTheme = createTheme('dark-theme', {
     ...pinkDark,
     ...grayDark,
     ...limeDark,
+    ...greenDark,
 
     // Semantic colors
     hiContrast: '$slate12',
