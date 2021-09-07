@@ -4,7 +4,11 @@ export const flexVariants = css({
   variants: {
     flex: {
       true: {
-        display: 'flex',
+        flexWrap: 'wrap',
+        '@bp2': {
+          display: 'flex',
+          flexWrap: 'initial',
+        },
       },
     },
     fd: {
@@ -16,10 +20,25 @@ export const flexVariants = css({
       center: {
         jc: 'center',
       },
+      start: {
+        jc: 'flex-start',
+      },
+      end: {
+        jc: 'flex-end',
+      },
+      between: {
+        jc: 'space-between',
+      },
     },
     ai: {
       center: {
         ai: 'center',
+      },
+      start: {
+        ai: 'flex-start',
+      },
+      end: {
+        ai: 'flex-end',
       },
     },
   },

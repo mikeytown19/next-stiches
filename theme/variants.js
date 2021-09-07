@@ -1,7 +1,10 @@
 import { css } from './stiches.config';
 
+export { paddingVariants } from './variants/padding';
+
 export { marginVariants } from './variants/margin';
 export { flexVariants } from './variants/flex';
+export { gridVariants } from './variants/grid';
 export { fontVariants } from './variants/font';
 export { colorVariants, backgroundColorVariants } from './variants/colors';
 export { widthVariants } from './variants/widths';

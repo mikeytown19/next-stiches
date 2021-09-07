@@ -4,52 +4,52 @@ export const colorVariants = css({
   variants: {
     color: {
       red: {
-        color: '$red10',
+        color: '$red11',
       },
       crimson: {
-        color: '$crimson10',
+        color: '$crimson11',
       },
       pink: {
-        color: '$pink10',
+        color: '$pink11',
       },
       purple: {
-        color: '$purple10',
+        color: '$purple11',
       },
       violet: {
-        color: '$violet10',
+        color: '$violet11',
       },
       indigo: {
-        color: '$indigo10',
+        color: '$indigo11',
       },
       blue: {
-        color: '$blue10',
+        color: '$blue11',
       },
       turquoise: {
-        color: '$turquoise10',
+        color: '$turquoise11',
       },
       teal: {
-        color: '$teal10',
+        color: '$teal11',
       },
       green: {
-        color: '$green10',
+        color: '$green11',
       },
       lime: {
-        color: '$lime10',
+        color: '$lime11',
       },
       yellow: {
-        color: '$yellow10',
+        color: '$yellow9',
       },
       orange: {
-        color: '$orange10',
+        color: '$orange11',
       },
       gold: {
-        color: '$gold10',
+        color: '$gold11',
       },
       bronze: {
-        color: '$bronze10',
+        color: '$bronze11',
       },
       gray: {
-        color: '$gray10',
+        color: '$gray11',
       },
       contrast: {
         color: '$hiContrast',
@@ -65,55 +65,55 @@ export const backgroundColorVariants = css({
   variants: {
     bg: {
       primary: {
-        bg: '$yellow8',
+        bg: '$yellow2',
       },
       red: {
-        bg: '$red9',
+        bg: '$red2',
       },
       crimson: {
-        bg: '$crimson9',
+        bg: '$crimson2',
       },
       pink: {
-        bg: '$pink9',
+        bg: '$pink2',
       },
       purple: {
-        bg: '$purple9',
+        bg: '$purple2',
       },
       violet: {
-        bg: '$violet9',
+        bg: '$violet2',
       },
       indigo: {
-        bg: '$indigo9',
+        bg: '$indigo2',
       },
       blue: {
-        bg: '$blue9',
+        bg: '$blue2',
       },
       tomato: {
-        bg: '$tomato10',
+        bg: '$tomato2',
       },
       teal: {
-        bg: '$teal9',
+        bg: '$teal2',
       },
       green: {
-        bg: '$green9',
+        bg: '$green2',
       },
       lime: {
-        bg: '$lime9',
+        bg: '$lime2',
       },
       yellow: {
-        bg: '$yellow9',
+        bg: '$yellow2',
       },
       orange: {
-        bg: '$orange9',
+        bg: '$orange2',
       },
       gold: {
-        bg: '$gold9',
+        bg: '$gold2',
       },
       bronze: {
-        bg: '$bronze9',
+        bg: '$bronze2',
       },
       gray: {
-        bg: '$gray9',
+        bg: '$gray2',
       },
       contrast: {
         bg: '$hiContrast',

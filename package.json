@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "cypress": "cypress open"
   },
   "dependencies": {
     "@radix-ui/colors": "^0.1.7",
@@ -17,10 +18,12 @@
     "react-dom": "17.0.1"
   },
   "devDependencies": {
+    "cypress": "^8.3.1",
     "eslint": "7.32.0",
     "eslint-config-airbnb": "^18.2.1",
     "eslint-config-next": "11.1.0",
     "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-cypress": "^2.11.3",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-jest-dom": "^3.6.5",
     "eslint-plugin-jsx-a11y": "^6.4.1",

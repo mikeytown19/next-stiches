@@ -1,48 +1,56 @@
-import Section from '../components/Section';
-import Header from '../components/Header';
-import Container from '../components/Container';
-import Box from '../components/Box';
-import { Text } from '../components/Text';
-import Button from '../components/Button';
+import {
+  Section,
+  Header,
+  Button,
+  Text,
+  Box,
+  Container,
+  Heading,
+  Grid,
+
+} from '../components';
 
 export default function Home() {
   return (
     <>
-      <Header>hey</Header>
-      <Box
-        css={{
-          top: 0,
-          right: 0,
-          bottom: 0,
-          left: 0,
-          position: 'absolute',
-          zIndex: '-1',
-          background:
-            'radial-gradient(circle at top left, $violet4, rgba(255, 255, 255, 0) 15%), radial-gradient(circle at 80% 20%, $cyan4, rgba(255, 255, 255, 0) 15%)',
-          '@bp2': {
-            background:
-              'radial-gradient(circle at 15% 50%, $violet3, rgba(255, 255, 255, 0) 25%), radial-gradient(circle at 85% 30%, $yellow4, rgba(255, 255, 255, 0) 15%)',
-          },
-        }}
-      />
+      <Header />
       <Section size={{ '@initial': '2', '@bp1': '3' }}>
-        <Box
-          css={{
-            size: '200px',
-            linearGradient: '19deg, #21D4FD 0%, #B721FF 100%',
-            br: '$round',
-          }}
-        />
         <Container>
           <Box flex js="center" ai="center" fd="column">
-            <Text heading color="yellow">Kich</Text>
-            <Text size="8" color="yellow">Make building websites easy</Text>
-
+            <Heading size="md" as="h1" color="yellow">Kich</Heading>
+            <Text color="yellow">Make building websites building easy</Text>
             <Text>Component Library built off of <Text as="span" color="violet">@stiches</Text>
             </Text>
 
-            <Button primary> Documentation</Button>
+            <Button bg="green"> Documentation</Button>
           </Box>
+        </Container>
+      </Section>
+      <Section>
+        <Container bg="gray">
+          <Grid>
+            <Grid.Item flex fd="column" jc="center" ai="start">
+              <Text as="h2"> Medium length display headline.</Text>
+              <Text>Deploy your mvp in minutes, not days. WT offers you a a wide selection swapable sections for your landing page.</Text>
+              <Button wide bg="green">Show Me</Button>
+            </Grid.Item>
+            <Grid.Item flex jc="center" ai="center">
+              <img src="https://picsum.photos/400/400" alt="" />
+            </Grid.Item>
+          </Grid>
+        </Container>
+
+        <Container bg="gray">
+          <Grid>
+            <Grid.Item flex jc="start" ai="center">
+              <img src="https://picsum.photos/390/390" alt="" />
+            </Grid.Item>
+            <Grid.Item flex fd="column" jc="center" ai="start">
+              <Text as="h2"> Medium length display headline.</Text>
+              <Text>Deploy your mvp in minutes, not days. WT offers you a a wide selection swapable sections for your landing page.</Text>
+              <Button wide bg="green">Show Me</Button>
+            </Grid.Item>
+          </Grid>
         </Container>
       </Section>
     </>

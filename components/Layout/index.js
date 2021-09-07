@@ -1,6 +1,4 @@
-import { styled } from '../../stiches.config';
+import { styled } from '../../theme/stiches.config';
 
-const Layout = styled('main', {
+export const Layout = styled('main', {
 });
-
-export default Layout;
