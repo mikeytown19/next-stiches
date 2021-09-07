@@ -20,6 +20,7 @@ module.exports = {
     'no-underscore-dangle': 0,
     'no-default-export': 0,
     'react/prop-types': 0,
+    'react/no-unescaped-entities': 0,
     'import/no-extraneous-dependencies': 0,
     'react/jsx-filename-extension': 0,
     'import/prefer-default-export': 0,

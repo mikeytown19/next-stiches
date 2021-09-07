@@ -5,14 +5,11 @@ import Link from 'next/link';
 
 import * as Styled from './Header.styles';
 import { Box } from '../Box';
-import { Container } from '../Container';
 import { Text } from '../Text';
 
 export const Header = () => {
   const { theme, setTheme } = useTheme();
-
   return (
-
     <Styled.Header>
       <Box flex jc="center" ai="center" p="1">
         <Link href="/">
@@ -50,8 +47,6 @@ export const Header = () => {
         <span>Discord</span>
         <SunIcon onClick={() => (theme === 'dark' ? setTheme('light') : setTheme('dark'))} aria-label="toggle a light and dark color scheme" />
       </Box>
-
     </Styled.Header>
-
   );
 };

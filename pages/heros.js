@@ -8,7 +8,6 @@ import {
   Hero,
   Container,
   Box,
-  Grid,
 } from '../components';
 
 export default function Heros() {

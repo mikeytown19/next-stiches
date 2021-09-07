@@ -1,4 +1,4 @@
-import { css, theme } from '../stiches.config';
+import { css } from '../stiches.config';
 
 export const colorVariants = css({
   variants: {
