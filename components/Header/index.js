@@ -28,6 +28,7 @@ export const Header = () => {
         jc="center"
         ai="center"
         css={{
+
           gap: '$3',
           svg: {
             size: '$4',

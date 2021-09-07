@@ -6,7 +6,7 @@ export const Button = styled('button', {
   borderRadius: '$2',
   fontSize: '$3',
   p: '$3',
-  color: '$loContrast',
+  color: '#fff',
 
   transition: 'background-color .2s, box-shadow .2s',
 

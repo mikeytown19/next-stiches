@@ -25,32 +25,66 @@ export default function Heros() {
           <Button mt="7" bg="blue" wide> Sign up now</Button>
         </Section>
       </Hero>
-      <Section>
+
+      <Section ta="center">
         <Container bg="gray">
-          <Grid>
-            <Box flex fd="column" jc="center" ai="start">
-              <Text as="h2"> Medium length display headline.</Text>
-              <Text>Deploy your mvp in minutes, not days. WT offers you a a wide selection swapable sections for your landing page.</Text>
-              <Button wide bg="red">Show Me</Button>
-            </Box>
-            <Box flex jc="center" ai="center">
-              <img src="https://picsum.photos/400/400" alt="" />
-            </Box>
-          </Grid>
+          <Text size="md">Tools for Developers & Designers</Text>
+          <Heading as="h1">Subscribe to be aware of new releases updates & free templates!</Heading>
+          <Box>
+            <Button wide bg="blue" mr="5"> Subscribe</Button>
+            <Button wide bg="green"> Try Demo</Button>
+          </Box>
 
         </Container>
+      </Section>
 
-        <Container bg="gray">
-          <Grid>
-            <Box flex jc="start" ai="center">
-              <img src="https://picsum.photos/390/390" alt="" />
+      <Section>
+        <Container>
+          <Text size="md" color="green">Tools for Developers & Designers</Text>
+          <Heading as="h1">Subscribe to be aware of new releases updates & free templates!</Heading>
+          <Box>
+            <Button wide bg="blue" mr="5"> Subscribe</Button>
+            <Button wide bg="green"> Try Demo</Button>
+          </Box>
+        </Container>
+      </Section>
+
+      <Section>
+        <Container bg="gray" flex>
+          <Box flex>
+            <Box pr="5">
+
+              <Text size="md" color="blue">Tools for Developers & Designers</Text>
+              <Heading as="h1">Subscribe to be aware of new releases updates & free templates!</Heading>
+              <Box>
+                <Button wide bg="blue" mr="5"> Subscribe</Button>
+                <Button wide bg="green"> Try Demo</Button>
+              </Box>
             </Box>
-            <Box flex fd="column" jc="center" ai="start">
-              <Text as="h2"> Medium length display headline.</Text>
-              <Text>Deploy your mvp in minutes, not days. WT offers you a a wide selection swapable sections for your landing page.</Text>
-              <Button wide bg="red">Show Me</Button>
+            <Box flex jc="center" ai="center">
+              <img src="https://dummyimage.com/520x400/e5e5e5/000" alt="" />
             </Box>
-          </Grid>
+          </Box>
+        </Container>
+      </Section>
+
+      <Section>
+        <Container flex>
+          <Box flex>
+            <Box flex jc="center" ai="center" pr="5">
+              {/* https://picsum.photos/400/400 */}
+              <img src="https://dummyimage.com/520x400/e5e5e5/000" alt="" />
+            </Box>
+            <Box pl="5">
+              <Text size="md" color="blue">Tools for Developers & Designers</Text>
+              <Heading as="h1">Subscribe to be aware of new releases updates & free templates!</Heading>
+              <Box>
+                <Button wide bg="blue" mr="5"> Subscribe</Button>
+                <Button wide bg="green"> Try Demo</Button>
+              </Box>
+            </Box>
+
+          </Box>
         </Container>
       </Section>
 

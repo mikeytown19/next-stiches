@@ -4,7 +4,11 @@ export const flexVariants = css({
   variants: {
     flex: {
       true: {
-        display: 'flex',
+        flexWrap: 'wrap',
+        '@bp2': {
+          display: 'flex',
+          flexWrap: 'initial',
+        },
       },
     },
     fd: {

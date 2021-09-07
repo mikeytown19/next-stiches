@@ -32,7 +32,7 @@ export default function Buttons() {
             <Box><Button bg="yellow" icon={<Component1Icon />}>button with icon left</Button></Box>
             <Box><Button bg="violet" iconRight icon={<Component1Icon />}>button with icon right</Button></Box>
             <Box><Button outline bg="yellow"> primary button</Button></Box>
-            <Box><Button bg="violet"> secondary button</Button></Box>
+            <Box><Button bg="violet" wide> secondary button</Button></Box>
 
           </Grid>
 

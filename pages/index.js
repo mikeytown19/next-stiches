@@ -7,6 +7,7 @@ import {
   Container,
   Heading,
   Grid,
+
 } from '../components';
 
 export default function Home() {
@@ -21,34 +22,34 @@ export default function Home() {
             <Text>Component Library built off of <Text as="span" color="violet">@stiches</Text>
             </Text>
 
-            <Button bg="violet"> Documentation</Button>
+            <Button bg="green"> Documentation</Button>
           </Box>
         </Container>
       </Section>
       <Section>
         <Container bg="gray">
           <Grid>
-            <Box flex fd="column" jc="center" ai="start">
+            <Grid.Item flex fd="column" jc="center" ai="start">
               <Text as="h2"> Medium length display headline.</Text>
               <Text>Deploy your mvp in minutes, not days. WT offers you a a wide selection swapable sections for your landing page.</Text>
-              <Button wide bg="violet">Show Me</Button>
-            </Box>
-            <Box flex jc="center" ai="center">
+              <Button wide bg="green">Show Me</Button>
+            </Grid.Item>
+            <Grid.Item flex jc="center" ai="center">
               <img src="https://picsum.photos/400/400" alt="" />
-            </Box>
+            </Grid.Item>
           </Grid>
         </Container>
 
         <Container bg="gray">
           <Grid>
-            <Box flex jc="start" ai="center">
+            <Grid.Item flex jc="start" ai="center">
               <img src="https://picsum.photos/390/390" alt="" />
-            </Box>
-            <Box flex fd="column" jc="center" ai="start">
+            </Grid.Item>
+            <Grid.Item flex fd="column" jc="center" ai="start">
               <Text as="h2"> Medium length display headline.</Text>
               <Text>Deploy your mvp in minutes, not days. WT offers you a a wide selection swapable sections for your landing page.</Text>
-              <Button wide bg="violet">Show Me</Button>
-            </Box>
+              <Button wide bg="green">Show Me</Button>
+            </Grid.Item>
           </Grid>
         </Container>
       </Section>
