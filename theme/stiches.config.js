@@ -62,10 +62,8 @@ const stitches = createStitches({
       ...lime,
       ...green,
 
-      primary: '$yellow8',
-      primaryHover: '$yellow7',
+      primary: '$yellow9',
       secondary: '$violet7',
-      secondaryHover: '$violet6',
       muted: '#f6f6f6',
 
       // Semantic colors
@@ -142,6 +140,7 @@ const stitches = createStitches({
       9: '3rem',
       10: '4rem',
       11: '5rem',
+      12: '7rem',
     },
     sizes: {
       1: '0.3rem',
@@ -325,7 +324,6 @@ export const {
   theme,
   getCssText,
   createTheme,
-
 } = stitches;
 
 export const darkTheme = createTheme('dark-theme', {

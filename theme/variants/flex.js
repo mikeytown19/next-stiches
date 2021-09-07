@@ -16,6 +16,15 @@ export const flexVariants = css({
       center: {
         jc: 'center',
       },
+      start: {
+        jc: 'flex-start',
+      },
+      end: {
+        jc: 'flex-end',
+      },
+      between: {
+        jc: 'space-between',
+      },
     },
     ai: {
       center: {

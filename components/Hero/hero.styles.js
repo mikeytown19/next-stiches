@@ -10,7 +10,6 @@ import {
 } from '../../theme/variants';
 
 export const Hero = styled('article', {
-  border: 'none',
   height: '100%',
 },
 colorVariants,

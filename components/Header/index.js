@@ -12,46 +12,45 @@ export const Header = () => {
   const { theme, setTheme } = useTheme();
 
   return (
-    <Container>
-      <Styled.Header>
-        <Box flex jc="center" ai="center" p="1">
-          <Link href="/">
-            <p className="logo">
-              <Half2Icon />
 
-              <Text fw="bold" as="h4" mx="2" py="0">Kich</Text>
-            </p>
-          </Link>
-        </Box>
+    <Styled.Header>
+      <Box flex jc="center" ai="center" p="1">
+        <Link href="/">
+          <p className="logo">
+            <Half2Icon />
+            <Text fw="bold" as="h4" mx="2" py="0">Kich</Text>
+          </p>
+        </Link>
+      </Box>
 
-        <Box
-          flex
-          jc="center"
-          ai="center"
-          css={{
-            gap: '$3',
-            svg: {
-              size: '$4',
-              '&:hover': {
-                cursor: 'pointer',
-              },
+      <Box
+        flex
+        jc="center"
+        ai="center"
+        css={{
+          gap: '$3',
+          svg: {
+            size: '$4',
+            '&:hover': {
+              cursor: 'pointer',
             },
-          }}
-        >
-          <Link href="/buttons">
-            <a>Buttons</a>
-          </Link>
-          <Link href="/boxes">
-            <a>Boxes</a>
-          </Link>
-          <Link href="/heros">
-            <a>Heros</a>
-          </Link>
-          <span>Discord</span>
-          <SunIcon onClick={() => (theme === 'dark' ? setTheme('light') : setTheme('dark'))} aria-label="toggle a light and dark color scheme" />
-        </Box>
+          },
+        }}
+      >
+        <Link href="/buttons">
+          <a>Buttons</a>
+        </Link>
+        <Link href="/boxes">
+          <a>Boxes</a>
+        </Link>
+        <Link href="/heros">
+          <a>Heros</a>
+        </Link>
+        <span>Discord</span>
+        <SunIcon onClick={() => (theme === 'dark' ? setTheme('light') : setTheme('dark'))} aria-label="toggle a light and dark color scheme" />
+      </Box>
 
-      </Styled.Header>
-    </Container>
+    </Styled.Header>
+
   );
 };

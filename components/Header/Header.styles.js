@@ -7,6 +7,9 @@ export const Header = styled('nav', {
   jc: 'space-between',
   ai: 'center',
   color: '$slate12',
+  maxWidth: '1450px',
+  ml: 'auto',
+  mr: 'auto',
 
   '.logo': {
     alignItems: 'center',

@@ -1,11 +1,29 @@
 import { styled } from '../../theme/stiches.config';
+import {
+
+  backgroundColorVariants,
+} from '../../theme/variants';
 
 export const Container = styled('div', {
   boxSizing: 'border-box',
   ml: 'auto',
   mr: 'auto',
-  px: '$5',
   maxWidth: '1450px',
+  px: '$6',
+  py: '$10',
+
+  '@bp1': {
+    px: '$8',
+    py: '$10',
+  },
+  '@bp2': {
+    px: '$10',
+    py: '$10',
+  },
+  '@bp3': {
+    px: '$12',
+    py: '$10',
+  },
 
   variants: {
     size: {
@@ -24,4 +42,4 @@ export const Container = styled('div', {
 
     },
   },
-});
+}, backgroundColorVariants);
