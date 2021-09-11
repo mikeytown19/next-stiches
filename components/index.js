@@ -3,7 +3,7 @@ export { Button } from './Button';
 export { Grid } from './Grid';
 export { Flex } from './Flex';
 export { Footer } from './Footer';
-export { Header } from './Header';
+export { Nav } from './Nav';
 export { Heading } from './Heading';
 export { Hero } from './Hero';
 export { Layout } from './Layout';

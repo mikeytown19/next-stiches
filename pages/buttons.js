@@ -1,7 +1,7 @@
 import { Component1Icon } from '@radix-ui/react-icons';
 import {
   Section,
-  Header,
+  Nav,
   Button,
   Text,
   Box,
@@ -13,7 +13,7 @@ import {
 export default function Buttons() {
   return (
     <>
-      <Header />
+      <Nav />
       <Section>
         <Container>
           <Heading ta="center" color="yellow" as="h1">Buttons</Heading>

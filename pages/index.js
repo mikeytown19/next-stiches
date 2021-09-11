@@ -1,6 +1,6 @@
 import {
   Section,
-  Header,
+  Nav,
   Button,
   Text,
   Box,
@@ -13,7 +13,7 @@ import {
 export default function Home() {
   return (
     <>
-      <Header />
+      <Nav />
       <Section size={{ '@initial': '2', '@bp1': '3' }}>
         <Container>
           <Box flex js="center" ai="center" fd="column">

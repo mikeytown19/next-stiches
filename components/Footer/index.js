@@ -23,20 +23,21 @@ export const Footer = () => (
               </Heading>
             </Flex>
 
-            <Text>Footer Item</Text>
-            <Text>Footer Item</Text>
           </Box>
           <Box>
-            <Text>Footer Item</Text>
-            <Text>Footer Item</Text>
-            <Text>Footer Item</Text>
-          </Box>
-          <Box>
+            <Text fw="8">Footer Item</Text>
             <Text>Footer Item</Text>
             <Text>Footer Item</Text>
             <Text>Footer Item</Text>
           </Box>
           <Box>
+            <Text fw="8">Footer Item</Text>
+            <Text>Footer Item</Text>
+            <Text>Footer Item</Text>
+            <Text>Footer Item</Text>
+          </Box>
+          <Box>
+            <Text fw="8">Footer Item</Text>
             <Text>Footer Item</Text>
             <Text>Footer Item</Text>
             <Text>Footer Item</Text>

@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import {
   Section,
-  Header,
+  Nav,
   Heading,
   Button,
   Text,
@@ -35,7 +35,7 @@ const Blob = () => {
 export default function Heros() {
   return (
     <>
-      <Header />
+      <Nav />
       <Hero size="3">
         <Section ta="center">
           <Heading as="h1">Lorem ipsum dolor sit amet consectetur.
@@ -82,9 +82,9 @@ export default function Heros() {
                 <Button wide bg="green"> Try Demo</Button>
               </Box>
             </Box>
-            <Box flex jc="center" ai="center">
+            <Flex jc="center" ai="center">
               <Blob />
-            </Box>
+            </Flex>
           </Flex>
         </Container>
       </Section>

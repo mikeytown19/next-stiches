@@ -1,6 +1,6 @@
 import {
   Section,
-  Header,
+  Nav,
   Text,
   Box,
   Container,
@@ -11,7 +11,7 @@ import {
 export default function Boxes() {
   return (
     <>
-      <Header />
+      <Nav />
       <Section>
         <Container>
           <Heading ta="center" as="h1">
