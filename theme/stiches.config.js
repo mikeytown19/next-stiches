@@ -154,6 +154,8 @@ const stitches = createStitches({
       9: '3rem',
       10: '4rem',
       11: '5rem',
+      12: '8rem',
+      13: '375px',
     },
 
     radii: {
@@ -244,6 +246,7 @@ const stitches = createStitches({
 
     ai: (value) => ({ alignItems: value }),
     ac: (value) => ({ alignContent: value }),
+    ji: (value) => ({ justifyItems: value }),
     jc: (value) => ({ justifyContent: value }),
     as: (value) => ({ alignSelf: value }),
     fg: (value) => ({ flexGrow: value }),
@@ -252,6 +255,9 @@ const stitches = createStitches({
 
     bg: (value) => ({
       backgroundColor: value,
+    }),
+    stopColor: (value) => ({
+      stopColor: value,
     }),
 
     br: (value) => ({

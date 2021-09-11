@@ -24,6 +24,9 @@ export const paddingVariants = css({
       5: {
         p: '$9',
       },
+      6: {
+        p: '$11',
+      },
     },
     py: {
       0: {

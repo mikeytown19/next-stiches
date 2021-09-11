@@ -1,7 +1,8 @@
 export { Box } from './Box';
 export { Button } from './Button';
 export { Grid } from './Grid';
-
+export { Flex } from './Flex';
+export { Footer } from './Footer';
 export { Header } from './Header';
 export { Heading } from './Heading';
 export { Hero } from './Hero';

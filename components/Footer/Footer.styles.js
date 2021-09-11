@@ -3,20 +3,14 @@ import {
   flexVariants, paddingVariants, marginVariants, backgroundColorVariants,
 } from '../../theme/variants';
 
-export const Box = styled('div', {
+export const Footer = styled('footer', {
   boxSizing: 'border-box',
-  '.dummyImage': {
-    width: '100%',
-    maxWidth: '500px',
+  svg: {
+    color: '$gray9',
+    size: '$7',
   },
-  '@bp2': {
-    '.dummyImage': {
-      width: '100%',
-      maxWidth: 'initial',
-
-    },
-  },
-}, flexVariants,
+},
+flexVariants,
 paddingVariants,
 marginVariants,
 backgroundColorVariants);

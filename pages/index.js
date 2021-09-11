@@ -32,7 +32,7 @@ export default function Home() {
             <Grid.Item flex fd="column" jc="center" ai="start">
               <Text as="h2"> Medium length display headline.</Text>
               <Text>Deploy your mvp in minutes, not days. WT offers you a a wide selection swapable sections for your landing page.</Text>
-              <Button wide bg="green">Show Me</Button>
+              <Button wide bg="blue">Show Me</Button>
             </Grid.Item>
             <Grid.Item flex jc="center" ai="center">
               <img src="https://picsum.photos/400/400" alt="" />
@@ -48,7 +48,7 @@ export default function Home() {
             <Grid.Item flex fd="column" jc="center" ai="start">
               <Text as="h2"> Medium length display headline.</Text>
               <Text>Deploy your mvp in minutes, not days. WT offers you a a wide selection swapable sections for your landing page.</Text>
-              <Button wide bg="green">Show Me</Button>
+              <Button wide bg="blue">Show Me</Button>
             </Grid.Item>
           </Grid>
         </Container>

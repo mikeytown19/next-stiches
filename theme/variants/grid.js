@@ -2,6 +2,17 @@ import { css } from '../stiches.config';
 
 export const gridVariants = css({
   variants: {
+    ji: {
+      center: {
+        ji: 'center',
+      },
+      start: {
+        ji: 'flex-start',
+      },
+      end: {
+        ji: 'flex-end',
+      },
+    },
     gap: {
       1: { gap: '$1' },
       2: { gap: '$3' },
@@ -10,6 +21,7 @@ export const gridVariants = css({
       5: { gap: '$9' },
       6: { gap: '$11' },
     },
+
     columns: {
       1: {
         '@bp1': {
@@ -18,7 +30,7 @@ export const gridVariants = css({
       },
       2: {
         '@bp2': {
-          gridTemplateColumns: 'repeat(2, 1fr)',
+          gridTemplateColumns: 'repeat(auto-fit, minmax($13, 1fr))',
         },
         '@initial': { gridTemplateColumns: 'repeat(1, 1fr)' },
       },
@@ -38,8 +50,9 @@ export const gridVariants = css({
         '@bp3': {
           gridTemplateColumns: 'repeat(4, 1fr)',
         },
-        '@initial': { gridTemplateColumns: 'repeat(1, 1fr)' },
+
       },
     },
   },
+  '@initial': { columns: 1 },
 });
