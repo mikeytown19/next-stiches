@@ -39,7 +39,7 @@ export const Nav = () => {
               <Box
                 className="dropdown"
                 as="ul"
-                onMouseEnter={() => { console.log('mouse entered'); }}
+
               >
                 <Link className="dropdown_main" href={item.url}>
                   <a>{item.text}</a>

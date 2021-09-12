@@ -16,8 +16,15 @@ export const Nav = styled('nav', {
       position: 'relative',
       '.dropdown_hidden_container': {
         display: 'block',
+        transform: 'translateY(0px)',
+        transition: ' transform .2s, opacity .5s',
+        width: '100%',
+        opacity: '1',
       },
       '.dropdown_hidden': {
+        '.link:first-of-type': {
+          pt: '0',
+        },
         opacity: '1',
         height: 'auto',
         '&::before': {
@@ -44,11 +51,11 @@ export const Nav = styled('nav', {
 
     },
     '.dropdown_hidden_container': {
-      display: 'none',
-
+      transform: 'translateY(240px)',
+      width: '0',
+      opacity: '0',
     },
     '.dropdown_hidden': {
-      opacity: '0',
       transition: ' opacity .2s',
       height: '0',
     },
